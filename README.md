@@ -1,6 +1,7 @@
 # 几何格式化宇宙哲学
 **Formatted Geometric Cosmology**
 
+首发日期：2025年12月
 ---
 
 ## 作者（Authors）
