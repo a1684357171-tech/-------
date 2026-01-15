@@ -93,7 +93,7 @@ ________________________________________
 
 <img width="959" height="174" alt="image" src="https://github.com/user-attachments/assets/4fe6dd48-906d-47aa-96d8-c2a92c2e0059" />
 
-误差水平：< 0.1%，小于实验半径系统误差，无任何随 A 的趋势。<br>
+误差水平：< 0.1%，小于实验半径系统误差，无任何随 A 漂移的趋势。<br>
 我们没有用液滴模型<br>
 没有用 Woods–Saxon<br>
 没有用 Yukawa<br>
