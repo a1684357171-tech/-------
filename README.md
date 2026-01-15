@@ -69,16 +69,16 @@ ________________________________________
 
 ——我们用宇宙第一性公理（一至四）推出了宇宙最小单元路径的几何距离 s 的距离：
 
-                                                <img width="228" height="54" alt="image" src="https://github.com/user-attachments/assets/306742ac-ced4-4f65-8cc1-1c9f2d2f48c7" />
+<img width="228" height="54" alt="image" src="https://github.com/user-attachments/assets/306742ac-ced4-4f65-8cc1-1c9f2d2f48c7" />
 
 跟实验数据（来自教科书）验算对照<br>
 Pb-208（最后完全稳定重核）实验核半径（电荷半径换算）：
 
-                                                <img width="243" height="51" alt="image" src="https://github.com/user-attachments/assets/c79b0b6c-1b84-4ee8-a473-abe91712aba7" />
+<img width="243" height="51" alt="image" src="https://github.com/user-attachments/assets/c79b0b6c-1b84-4ee8-a473-abe91712aba7" />
 
 计算得到：
 
-                                                <img width="368" height="175" alt="image" src="https://github.com/user-attachments/assets/67c15814-62c3-43fe-91b2-86c3ecd20710" />
+<img width="368" height="175" alt="image" src="https://github.com/user-attachments/assets/67c15814-62c3-43fe-91b2-86c3ecd20710" />
 
 
 
