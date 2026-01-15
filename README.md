@@ -67,6 +67,8 @@ ________________________________________
 
 ## 我们推演出了什么
 
+——我们用宇宙第一性公理（一至四）推出了宇宙最小单元路径的几何距离 s 的距离：
+
 <img width="228" height="54" alt="image" src="https://github.com/user-attachments/assets/306742ac-ced4-4f65-8cc1-1c9f2d2f48c7" />
 
 
