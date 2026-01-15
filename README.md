@@ -67,7 +67,8 @@ ________________________________________
 
 ## 我们推演出了什么
 
-s=R0​≈1.2 fm
+<img width="228" height="54" alt="image" src="https://github.com/user-attachments/assets/306742ac-ced4-4f65-8cc1-1c9f2d2f48c7" />
+
 
 
 
