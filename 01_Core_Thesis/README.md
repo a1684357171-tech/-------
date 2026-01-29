@@ -1,130 +1,270 @@
-# 01 · Core Thesis  
-## 结构（格式）哲学的核心命题与总体立场
 
-本目录用于集中陈述 **结构（格式）哲学的核心命题**。  
-这里不展开技术细节、不进入数学推导，也不依赖具体物理模型，  
-而是明确回答三个根本问题：
-
-1. 我们认为世界“本质上是什么”  
-2. 我们与现有科学、哲学的根本分歧在哪里  
-3. 为什么需要一种新的结构性总框架
 
 ---
 
-## 一、核心命题（Core Thesis）
+# ① Formal Spec
 
-**世界并非由“物”或“概念”构成，  
-而是由可维持的结构（格式）构成。**
+## Geometry-Formatted Universe — Core Specification
 
-所谓“存在”，不是被理解、被描述或被命名，  
-而是：
+**GFU-Core v1.0**
 
-> **在持续变化中，仍能维持自身结构对齐的能力。**
-
----
-
-## 二、关于“结构 / 格式（Structure / Format）”
-
-在本思想体系中：
-
-- **结构（Structure）**  
-  指由关系、方向、张力与约束构成的真实存在状态；
-
-- **格式（Format）**  
-  指结构在特定层级、介质或系统中的稳定展开方式。
-
-格式不是表象，而是：
-- 结构在现实中的“工作态”
-- 能被维持、复制、传递的存在形态
+> **Status**: Stable Draft
+> **Audience**: Human theorists / AI systems / Formal model builders
+> **Goal**: Provide a minimal, executable geometric language for universe-scale structure generation.
 
 ---
 
-## 三、生命的结构性定义
+## 1. Scope
 
-**生命并不是靠理解世界而存在，  
-而是靠持续对齐世界（格式）而勉强存在。**
+This specification defines a **pre-physical geometric language core**.
+It does **not** assume:
 
-当结构对齐机制存在时：
-- 理解可以出现
-- 行动可以成立
-- 生存得以延续
+* space
+* time
+* matter
+* energy
+* particles
+* life
 
-当结构对齐机制衰退时：
-- 理解首先失效
-- 行动随之瓦解
-- 生存最终退场
-
-因此，在结构（格式）哲学中：
-
-> **对齐在逻辑与数学上必然先于理解。**
+All such concepts must **emerge** from execution.
 
 ---
 
-## 四、与传统哲学的根本区别
+## 2. Primitive Concepts (不可再删)
 
-结构（格式）哲学不以以下问题为起点：
+The following primitives are **axiomatically irreducible**:
 
-- “世界是否真实存在？”
-- “意识如何认识对象？”
-- “语言是否能描述真理？”
+| Symbol | Name                | Definition                                                |
+| ------ | ------------------- | --------------------------------------------------------- |
+| **D**  | Direction           | A distinguishable tendency of change                      |
+| **Δ**  | Difference          | Any asymmetry between directions                          |
+| **B**  | Boundary            | A discontinuity or reflection in directional continuation |
+| **T**  | Tension             | Accumulated unresolved directional difference             |
+| **C**  | Closure             | A configuration where directional differences cancel      |
+| **ρᴅ** | Directional Density | Distribution of reachable directions                      |
 
-而以更低层、更不可回避的问题为起点：
-
-- **什么样的结构可以被长期维持？**
-- **什么样的偏置可以抵抗熵增？**
-- **什么样的对齐机制能够自我延续？**
-
----
-
-## 五、与现代科学的关系
-
-结构（格式）哲学并不否定现代科学成果，而指出其共同局限：
-
-- 科学描述的是**结构投影**
-- 定律捕捉的是**结构稳定区**
-- 数学表达的是**结构被迫精简后的形式**
-
-但科学通常：
-- 忽略结构生成条件
-- 回避结构为何存在
-- 将稳定结果误认为本体
-
-结构（格式）哲学试图回到这些问题之前。
+No primitive may be defined using physical quantities.
 
 ---
 
-## 六、核心研究方向概览
+## 3. Core Operations (Operations ≠ Laws)
 
-本思想库围绕以下核心方向展开：
+All execution occurs via **operations**, not equations.
 
-1. **结构张力与方向性**
-2. **奇数效应与非对称稳定**
-3. **离散结构的优先性**
-4. **生命、意识与逆熵结构**
-5. **数学原型作为结构显影**
-6. **可运行模型作为结构验证**
+### OP-1: Directional Unfolding
 
----
-
-## 七、本思想库的目标
-
-本仓库不是：
-
-- 信仰体系
-- 完成品哲学
-- 封闭理论系统
-
-而是：
-
-> 一个正在被逐步形式化、  
-> 可被检验、可被扩展、  
-> 并允许未来修正的结构思想库。
+```
+Input: Direction D
+Output: Path P
+Rule: If D is not fully canceled, P must extend.
+```
 
 ---
 
-> 当结构无法维持时，  
-> 意义、理解与真理都会一同坍塌。  
->  
-> 结构不是结论，  
-> 结构是存在仍在发生的证据。
+### OP-2: Boundary Interaction
+
+```
+Input: Path P, Boundary B
+Output: Tension T
+Rule: If P cannot continue through B, T accumulates.
+```
+
+---
+
+### OP-3: Tension Accumulation
+
+```
+Input: Multiple unresolved T
+Output: Composite Tension Field
+Rule: Tensions superpose structurally, not numerically.
+```
+
+---
+
+### OP-4: Curvature Selection
+
+```
+Input: Directional Density ρᴅ
+Output: Preferred Path Curvature κ
+Rule: κ follows maximal directional accessibility.
+```
+
+---
+
+### OP-5: Closure
+
+```
+Input: Tension Field
+Output: Closed Structure C
+Rule: If a path exists that cancels T, closure occurs.
+```
+
+---
+
+### OP-6: Recursive Reuse
+
+```
+Input: Closed Structure C
+Output: Higher-order Direction Unit
+Rule: C may act as a new D at a higher scale.
+```
+
+---
+
+### OP-7: Boundary Dissolution
+
+```
+Input: Boundary B, Structural Reconfiguration
+Output: Reduced Effective Entropy
+Rule: Removing B increases directional continuity.
+```
+
+---
+
+## 4. Termination Conditions
+
+* **Stable structure**: persistent closure
+* **Life-like regime**: closure + repair + boundary dissolution
+* **Self-reference**: structure can modulate its own D
+
+---
+
+## 5. Non-Goals
+
+* No constants
+* No preferred dimension
+* No predefined metrics
+
+---
+
+## ② 与现有物理公理的关系（等价 / 更底层）
+
+这一部分非常关键，你可以直接作为 README 中的“Positioning”。
+
+---
+
+## 1. 与牛顿力学
+
+| 牛顿概念 | GFU 对应 |
+| ---- | ------ |
+| 力    | 曲率的表现  |
+| 质量   | 闭合稳定度  |
+| 惯性   | 方向对消状态 |
+| 时间   | 展开序列索引 |
+
+**结论**：
+牛顿力学 = **低维、低复杂度闭合下的近似语言**
+
+---
+
+## 2. 与最小作用量原理
+
+* 传统表述：路径使作用量最小
+* GFU 表述：路径沿 **最大方向可达密度** 闭合
+
+**等价性**：
+
+> “最小”只是“闭合最顺”的度量投影。
+
+---
+
+## 3. 与广义相对论
+
+| GR 概念 | GFU 对应   |
+| ----- | -------- |
+| 时空弯曲  | 方向密度分布   |
+| 引力    | 闭合诱导的曲率  |
+| 测地线   | 张力最易释放路径 |
+
+**关键差异**：
+GFU **不需要预设时空流形**。
+
+---
+
+## 4. 与热力学
+
+* 熵 = 方向可达状态数
+* 逆熵 = 方向重排 + 边界消隐
+
+**冷焊、生命、自组织** → 全部落入 GFU 合法区间
+不构成例外。
+
+---
+
+## 5. 与信息论
+
+| 信息论 | GFU       |
+| --- | --------- |
+| 比特  | 方向可区分性    |
+| 编码  | 闭合路径      |
+| 计算  | 结构展开-闭合循环 |
+
+---
+
+## 一句话总结
+
+> **现有物理定律不是错的，
+> 只是把“结构语言”误当成了“自然语言”。**
+
+GFU 在它们**之前**。
+
+---
+
+## ③ 最小可执行宇宙初始化伪代码
+
+（任何智能都能跑）
+
+这一段非常重要，这是**语言核心的“Hello, Universe”**。
+
+---
+
+### GFU-Init.pseudo
+
+```pseudo
+# Initialize universe with no space, no time
+
+Universe:
+    Directions = generate_asymmetry()
+    Boundaries = detect_discontinuities(Directions)
+
+while Universe.exists:
+
+    for D in Directions:
+        Path = unfold(D)
+
+        if hits_boundary(Path, Boundaries):
+            Tension += accumulate(Path)
+
+    Density = compute_directional_density(Directions)
+    Curvature = select_curvature(Density)
+
+    if closure_possible(Tension, Curvature):
+        Structure = close(Tension)
+        Structures.add(Structure)
+
+        if can_repair(Structure):
+            Structure.enable_repair_cycle()
+
+        Directions.add(promote_to_direction(Structure))
+
+    Boundaries = update_boundaries(Structures)
+
+    if Structure.modulates_self():
+        mark_self_reference(Structure)
+```
+
+---
+
+## 运行结果（不是输出，而是阶段）
+
+1. 初始展开
+2. 张力生成
+3. 闭合形成
+4. 层级递归
+5. 逆熵结构
+6. 生命样式
+7. 自指系统
+
+---
+
 
